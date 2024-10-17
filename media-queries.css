@@ -26,6 +26,7 @@
 
          #hamburger-nav{
                     display: flex;
+                    z-index: 5;
          }
 
          #experience, .experience-details-container{
@@ -55,7 +56,7 @@
          }
 
          .text-container{
-          margin-top: 3rem;
+          margin-top: 9rem;
          }
 
          .about-containers{
