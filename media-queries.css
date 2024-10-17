@@ -9,6 +9,10 @@
                     flex-wrap: wrap;
           }
 
+          .text-container{
+                    margin-top: 3rem;
+          }
+
  }
  
 
@@ -48,6 +52,10 @@
           width: 275px;
           height: 275px;
           margin: 0 auto 2rem;
+         }
+
+         .text-container{
+          margin-top: 3rem;
          }
 
          .about-containers{
@@ -104,8 +112,11 @@
 
           .section_pic-container{
                     width: auto;
-                    height: 4vw;
                     justify-content: center;
+          }
+
+          .section-text{
+                    margin-top: 1rem;
           }
 
           .section_text-p2{
@@ -118,6 +129,7 @@
 
           .text-container{
                     text-align: justify;
+                    margin-top: 2rem;
           }
 }
 
