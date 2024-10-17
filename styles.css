@@ -87,20 +87,26 @@ a:hover{
           height: 24px;
           width: 30px;
           cursor: pointer;
+          color: black;
 }
 
 .hamburger-icon span{
+          z-index: 1;
           width: 100%;
-          width: 2px;
-          background-color: black;
+          width: 20px;
+          background-color: rgb(19, 143, 81);
+          border-radius: 20px;
+          color: blue;
           transition: all .3 ease-in-out;
+          color: brown;
+          display: block;
 }
 
 .menu-links{
+          z-index: 1;
           position: absolute;
           top: 100%;
           right: 0;
-          background-color: white;
           width: fit-content;
           max-height: 0;
           overflow: hidden;
