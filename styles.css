@@ -84,6 +84,11 @@ a:hover{
 }
 
 .hamburger-icon{
+     cursor: pointer;
+     font-size: 1.7rem;
+}
+
+/* .hamburger-icon{
           display: flex;
           flex-direction: column;
           justify-content: space-between;
@@ -103,7 +108,7 @@ a:hover{
           transition: all .3 ease-in-out;
           color: brown;
           display: block;
-}
+} */
 
 .menu-links{
           z-index: 1;
