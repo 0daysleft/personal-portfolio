@@ -173,7 +173,6 @@ section{
 #profile{
           display: flex;
           gap: 5rem;
-          height: 80vh;
           position: relative;
 }
 
@@ -373,7 +372,6 @@ section{
 .project-img{
           border-radius: 2rem;
           width: 90%;
-          height: 90%;
 }
 
 .project-title{
@@ -392,7 +390,6 @@ section{
           display: flex;
           justify-content: center;
           flex-direction: column;
-          height: 70vh;
 }
 
 .contact-info-upper-container{
