@@ -7,6 +7,100 @@
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
           <link rel="stylesheet" href="styles.css">
           <link rel="stylesheet" href="media-queries.css">
+          <style>
+                * {
+      box-sizing: border-box;
+    }
+
+    .form-body{
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .form-container {
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffffff;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      margin-bottom: 5px;
+      font-weight: 600;
+      color: #ffffff;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+      transition: border-color 0.3s;
+    }
+
+    input:focus, textarea:focus {
+      border-color: #4CAF50;
+      outline: none;
+    }
+
+    textarea {
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      padding: 12px;
+      margin-top: 20px;
+      cursor: pointer;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .success-message {
+      display: none;
+      margin-top: 15px;
+      text-align: center;
+      color: #2e7d32;
+      font-weight: 600;
+      background-color: #e8f5e9;
+      padding: 10px;
+      border-radius: 6px;
+    }
+
+    @media (max-width: 600px) {
+      .form-container {
+        padding: 20px;
+      }
+
+      input, textarea {
+        font-size: 1rem;
+      }
+    }
+          </style>
 </head>
 <body>
 
@@ -43,7 +137,7 @@
 
           <section id="profile">
                     <div class="section_pic-container">
-                              <img src="./images/Vincen Photo-Photoroom.png" alt="person-half-image" style="border-radius: 50%;">
+                              <img src="./images/Vincen Photo-Photoroom.png" alt="person-half-image" style="border-radius: 10%; object-fit: contain;">
                     </div>
 
                     <div class="section-text" style=" line-height: 6.3rem;">
@@ -297,7 +391,7 @@ Let’s connect and build something awesome!
                     <img src="./images/assets/arrow.png" alt="Arrow Icon" class="arrow icon" onclick="location.href='./#contact'">
           </section>
 
-          <section id="contact">
+          <section id="contact" class="form-body">
                     <p class="section_text-p1">Get In Touch</p>
                     <h1 class="title">Get In Touch</h1>
   <form id="contactForm" action="https://formsubmit.co/e3d26047f23e14e7a7ba0c03f639c00c" method="POST">
