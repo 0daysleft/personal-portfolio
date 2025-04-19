@@ -38,6 +38,6 @@ function toggleMenu(){
           alert("There was an error. Please try again.");
         }
       }).catch(error => {
-        alert("There was an error sending your message.");
+        alert("There was an error sending your message." + error);
       });
     });
