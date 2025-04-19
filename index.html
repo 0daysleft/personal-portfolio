@@ -46,10 +46,12 @@
                               <img src="./images/Vincen Photo-Photoroom.png" alt="person-half-image" style="border-radius: 50%;">
                     </div>
 
-                    <div class="section-text">
+                    <div class="section-text" style=" line-height: 6.3rem;">
                               <p class="section_text-p1">Hello, I am</p>
                               <h1 class="title">Vincent Okemwa</h1>
-                              <p class="section_text-p2">Aspiring Front-End Developer</p>
+                              <p class="section_text-p2" style=" line-height: 3.3rem;">
+                                A 3rd-year Computer Science student passionate about web development and solving real-world problems through code. Currently building projects with React and Node.js.
+                              </p>
                               <div class="btn-container">
                                         <button class="btn btn-color-2" onclick="window.open('./images/assets/Vincent Okemwa Resume.pdf')">Download CV</button>
                                         <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
@@ -71,7 +73,7 @@
                                                   class="about-pic"  />
                                         </div>
  -->
-                                        <div class="about-details-container">
+                                        <!-- <div class="about-details-container">
                                                   <div class="about-containers">
                                                   <div class="details-container">
                                                             <img src="images/assets/experience.png" alt="experience-icon" class="icon"/>
@@ -85,29 +87,22 @@
                                                             <h3>Education</h3>
                                                             <p>B.sc. Bachelor's Degree<br> Computer Science</p>
                                                   </div>
-                                        </div>
+                                        </div> -->
 
                                         <div class="text-container">
                                                   <p>
-                                                          As a computer science student I am genuinely 
-                                                          curious about technology and its ability to 
-                                                          shape our future. I have a strong passion for 
-                                                          coding and problem-solving, and I often 
-                                                          experiment with various programming languages 
-                                                          and frameworks to gain a deeper understanding 
-                                                          of how everything operates behind the scenes. 
-                                                          I love taking on challenges that stimulate my 
-                                                          logical thinking and creativity, whether it’s 
-                                                          creating a small app or exploring algorithms 
-                                                          and how they work behind the scenes. I’m always 
-                                                          on the lookout for opportunities to enhance my 
-                                                          skills, collaborate with others, and keep up with 
-                                                          the latest trends in technology. In addition to coding, 
-                                                          I’m also keen on delving into fields like artificial intelligence,
-                                                           machine learning, and cybersecurity in the future, with the hope of
-                                                            contributing to innovations that can make a tangible difference in the world. 
-                                                            Most importantly, I’m dedicated to continuous learning and growth in this rapidly 
-                                                            evolving field.
+                                                        <!-- Hey there! I’m a third-year Computer Science student at Kirinyaga University, focused on frontend development. I enjoy building user-friendly web apps and experimenting with tools like HTML, CSS, JavaScript, React, and MySQL.
+
+My personal projects include a quiz app, an e-commerce site, and a React movie app — all helping me grow as a developer. I'm currently learning React JS & TypeScript and always looking to sharpen my skills.
+
+I’m on the lookout for internship opportunities where I can learn, contribute, and collaborate with passionate people. I also enjoy connecting with new faces and learning from different perspectives. -->
+Hey! I’m a third-year Computer Science student at <button style=" outline: none; border: none; width: max-content; color: white;" class="btn btn-color-2 project-btn" onclick="location.href='https://www.kyu.ac.ke'">Kirinyaga University</button> with a strong interest in frontend development and crafting smooth, responsive web experiences. <br> <br>Over the past few years, I’ve been learning by building — creating personal projects like a <a href="https://quiz-app-peach-six.vercel.app/">Javascript Quiz App</a>, a <a href="https://recipe-app-gamma-pied.vercel.app/index.html">Recipe App / Food Store</a>, a <a href="https://moviespotter.vercel.app/'">React JS Movie App</a> , and an <a href="https://e-commerce-website-phi-gray.vercel.app/html-files/index.html">E-Commerce Website</a>. These hands-on projects have helped me strengthen my skills in HTML, CSS, and JavaScript, while also getting comfortable with tools like Git, PHP, MySQL, and React. I’m currently exploring TypeScript as well to take my development game to the next level.
+<br><br>
+While I’m still looking for internship opportunities, I’m actively improving my skills through real-world practice and self-guided learning. I enjoy turning ideas into interactive interfaces and constantly strive to write clean, maintainable code.
+<br><br>
+Outside of coding, I love meeting new people, having great conversations, and learning from others — whether it’s tech-related or just life in general. I’m always open to collaboration, feedback, and new challenges.
+<br><br>
+Let’s connect and build something awesome!
                                                   </p>
                                         </div>
                               </div>
@@ -304,7 +299,26 @@
 
           <section id="contact">
                     <p class="section_text-p1">Get In Touch</p>
-                    <h1 class="title">Contact Me</h1>
+                    <h1 class="title">Get In Touch</h1>
+  <form id="contactForm" action="https://formsubmit.co/YOUR_FORMSUBMIT_KEY" method="POST">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="message">Your Message:</label>
+    <textarea id="message" name="message" rows="4" required></textarea>
+
+    <!-- FormSubmit settings -->
+    <input type="hidden" name="_captcha" value="false">
+
+    <input type="submit" value="Send">
+    <div class="success-message" id="successMessage">✅ Message sent!</div>
+  </form>
                     <div class="contact-info-upper-container">
                               <div class="contact-info-container">
                                         <img src="./images/assets/email.png" alt="Email Icon" target='_blank' class="icon contact-icon"/>
@@ -315,6 +329,7 @@
                                         <p><a href="https://www.x.com/@0day101">  X  </a></p>
                               </div>
                     </div>
+                    
           </section>
 
           <footer>
