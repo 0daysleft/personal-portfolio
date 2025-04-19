@@ -11,9 +11,12 @@
 }
 
 body{
-          font-family: "Poppins", sans-serif;
-          background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
- background-blend-mode: multiply,multiply;
+          font-family: sans-serif;
+          /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
+ /* background-blend-mode: multiply,multiply; */
+          background: #16222A;  /* fallback for old browsers */
+          background: -webkit-linear-gradient(to right, #3A6073, #16222A);
+          background: linear-gradient(to right, #3A6073, #16222A);
 }
 
 html{
@@ -21,7 +24,8 @@ html{
 }
 
 p{
-          color: rgb(85,85,85);
+          color: #fff;
+          line-height: 1.5rem;
 }
 
 /* TRANSITION */
@@ -39,7 +43,16 @@ nav, .nav-links{
 nav{
           justify-content: space-around;
           align-items: center;
-          height: 17vh;
+          height: 10vh;
+          /* background: #C9FFBF;
+          background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+          background: linear-gradient(to right, #FFAFBD, #C9FFBF); */
+          background: #00467F;
+          background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+          background: linear-gradient(to right, #A5CC82, #00467F);
+          position: sticky;
+          top: 0;
+          left: 0;
 }
 
 .nav-links{
@@ -52,7 +65,6 @@ a{
           color: black;
           text-decoration: none;
           text-decoration-color: white;
-
 }
 
 a:hover{
@@ -137,7 +149,16 @@ a:hover{
 }
 
 .menu-links.open{
-          max-height: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     position: absolute;
+     top: -.9rem;
+     right: -3.7rem;
+     min-height: 300px;
+     background-color: #467bc1;
+     width: 100vw;
+
 }
 
 .hamburger-icon.open span:first-child{

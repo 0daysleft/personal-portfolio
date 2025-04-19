@@ -87,6 +87,10 @@
                     flex-wrap: wrap;
           }
 
+          .about-containers{
+               flex-direction: column;
+          }
+
           .contact-info-container{
                     margin: 0;
           }
@@ -129,6 +133,15 @@
           .text-container{
                     text-align: justify;
                     margin-top: 2rem;
+          }
+
+          footer .nav-links{
+               display: flex;
+               flex-direction: column;
+               justify-content: space-evenly;
+               min-height: 300px;
+               width: 80vw;
+               font-size: 1rem;
           }
 }
 
