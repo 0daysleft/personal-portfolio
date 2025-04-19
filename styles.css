@@ -64,10 +64,11 @@ a:hover{
 
 .logo{
           font-size: 2rem;
+          cursor: pointer;
 }
 
 .logo:hover{
-          cursor: default;
+          cursor: pointer;
 }
 
 
