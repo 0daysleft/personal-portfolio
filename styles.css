@@ -36,23 +36,26 @@ a, .btn{
 
 /* DESKTOP NAVIGATION */
 
-nav, .nav-links{
-          display: flex;
-}
 
 nav{
-          justify-content: space-around;
-          align-items: center;
-          height: 10vh;
-          /* background: #C9FFBF;
-          background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
-          background: linear-gradient(to right, #FFAFBD, #C9FFBF); */
-          background: #00467F;
-          background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
-          background: linear-gradient(to right, #A5CC82, #00467F);
-          position: sticky;
-          top: 0;
-          left: 0;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     height: 10vh;
+     /* background: #C9FFBF;
+     background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);
+     background: linear-gradient(to right, #FFAFBD, #C9FFBF); */
+     background: #00467F;
+     background: -webkit-linear-gradient(to right, #A5CC82, #00467F);
+     background: linear-gradient(to right, #A5CC82, #00467F);
+     position: sticky;
+     top: 0;
+     left: 0;
+     z-index: 1;
+}
+
+nav, .nav-links{
+          display: flex;
 }
 
 .nav-links{
