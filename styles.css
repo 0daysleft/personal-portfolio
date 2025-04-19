@@ -399,6 +399,11 @@ section{
           position: relative;
 }
 
+#projects .article-container img{
+     max-height: 300px;
+     max-width: 300px;
+}
+
 .color-container{
           border-color: rgb(163, 163, 163);
           background-image: linear-gradient(to top, #e6e9f0 0%, #4c88d7 100%);
