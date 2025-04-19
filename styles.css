@@ -303,6 +303,13 @@ section{
           position: relative;
 }
 
+#about .section-container{
+      /* background: linear-gradient(to right, #0052a1, #0052A2); */
+     background-color: #003366;
+     padding: 2rem;
+     border-radius: 20px;
+}
+
 .about-containers{
           gap:2rem;
 }
@@ -331,7 +338,7 @@ section{
 .details-container{
           padding: 1.5rem;
           flex: 1;
-          background-image: linear-gradient(to top, #e6e9f0 0%, #467bc1 100%);
+          background-color: #003366;
           border-radius: 2rem;
           border: rgb(53, 53, 53) 0.1rem solid;
           border-color: rgb(163, 163, 163);
@@ -402,11 +409,12 @@ section{
 #projects .article-container img{
      max-height: 300px;
      max-width: 300px;
+     object-fit: contain;
 }
 
 .color-container{
           border-color: rgb(163, 163, 163);
-          background-image: linear-gradient(to top, #e6e9f0 0%, #4c88d7 100%);
+          background-image: linear-gradient(to top, #57637e 0%, #4c88d7 100%);
 }
 
 .project-img{
