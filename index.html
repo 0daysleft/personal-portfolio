@@ -306,17 +306,17 @@ Let’s connect and build something awesome!
                 </div>
 
                 <form id="contactForm" action="https://formsubmit.co/e3d26047f23e14e7a7ba0c03f639c00c" method="POST">
-                        <label for="name">Full Name:</label>
-                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name:*</label>
+                        <input type="text" id="name" name="name" maxlength="30" required>
 
-                        <label for="email">Email Address:</label>
-                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address:*</label>
+                        <input type="email" id="email" name="email" maxlength="30" required>
 
-                        <label for="phone">Phone Number:</label>
-                        <input type="tel" id="phone" name="phone">
+                        <label for="phone">Phone Number: (Optional)</label>
+                        <input type="tel" id="phone" name="phone" minlength="10" maxlength="13">
 
-                        <label for="message">Your Message:</label>
-                        <textarea id="message" name="message" rows="4" required></textarea>
+                        <label for="message">Your Message:*</label>
+                        <textarea id="message" name="message" cols="30" rows="10" required></textarea>
 
                         <!-- FormSubmit settings -->
                         <input type="hidden" name="_captcha" value="false">
