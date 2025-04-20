@@ -1,7 +1,7 @@
 
 /* GENERAL STYLES */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 
 
 *{
@@ -11,7 +11,7 @@
 }
 
 body{
-          font-family: sans-serif;
+          font-family: 'Inter';
           /* background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898; */
  /* background-blend-mode: multiply,multiply; */
           background: #16222A;  /* fallback for old browsers */
@@ -436,7 +436,7 @@ section{
 
 #contact{
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           flex-direction: column;
 }
 
@@ -479,6 +479,105 @@ footer{
 
 footer p{
           text-align: center;
+}
+
+* {
+      box-sizing: border-box;
+}
+
+.form-body{
+     font-family: 'Inter', sans-serif;
+     margin: 0;
+     padding: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+}
+/* 
+.form-container {
+     padding: 300px;
+     border-radius: 12px;
+     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+     width: 100%;
+     max-width: 500px;
+} */
+
+#contactForm{
+     width: 70vw;
+}
+
+h2 {
+     text-align: center;
+     margin-bottom: 20px;
+     color: #ffffff;
+}
+
+label {
+     display: block;
+     margin-top: 15px;
+     margin-bottom: 5px;
+     font-weight: 600;
+     color: #ffffff;
+}
+
+input, textarea {
+     width: 100%;
+     height: 5vh;
+     padding: 12px;
+     border: 1px solid #ccc;
+     border-radius: 8px;
+     font-size: 2rem;
+     font-weight: bolder;
+     text-transform: capitalize;
+     transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+     border-color: #4CAF50;
+     outline: none;
+}
+
+textarea {
+     resize: vertical;
+}
+
+input[type="submit"] {
+     background-color: #4CAF50;
+     color: white;
+     border: none;
+     font-size: 1rem;
+     font-weight: bold;
+     padding: 12px;
+     margin-top: 20px;
+     cursor: pointer;
+     border-radius: 8px;
+     transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+     background-color: #45a049;
+}
+
+.success-message {
+     display: none;
+     margin-top: 15px;
+     text-align: center;
+     color: #2e7d32;
+     font-weight: 600;
+     background-color: #e8f5e9;
+     padding: 10px;
+     border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+     .form-container {
+     padding: 20px;
+     }
+
+     input, textarea {
+     font-size: 1rem;
+     }
 }
 
 /* Contact Section 
