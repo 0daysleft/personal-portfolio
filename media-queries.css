@@ -12,6 +12,10 @@
                     margin-top: 3rem;
           }
 
+           #contactForm{
+                    width: 60vw;
+          }
+
  }
  
 
@@ -61,7 +65,12 @@
          .about-containers{
           margin-top: 0;
          }
+
+          #contactForm{
+                width: 90vw;
+          }
 }
+
 
 @media screen and (max-width: 600px) {
           #contact,footer{

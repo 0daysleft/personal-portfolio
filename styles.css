@@ -360,6 +360,10 @@ section{
 
 #experience{
           position: relative;
+          height: 50vh;
+          display: flex;
+          flex-direction: column;
+          gap: 4rem;
 }
 
 .experience-sub-title{
@@ -404,6 +408,10 @@ section{
 
 #projects{
           position: relative;
+          height: 50vh;
+          display: flex;
+          flex-direction: column;
+          gap: 4rem;
 }
 
 #projects .article-container img{
@@ -584,6 +592,10 @@ input[type="submit"]:hover {
 @media (max-width: 600px) {
      .form-container {
      padding: 20px;
+     }
+
+     #contactForm{
+     width: 90vw;
      }
 
      input, textarea {
