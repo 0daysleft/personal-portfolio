@@ -1,6 +1,6 @@
 # 💼 Personal Portfolio
 
-Welcome to my personal portfolio! This project showcases who I am, my skills, projects, and how to get in touch. It's built to represent my personal brand and give visitors a quick insight into my work as a developer/designer/creator.
+Welcome to my personal portfolio! This project showcases who I am, my skills, projects, and how to get in touch. It's built to represent my personal brand and give visitors a quick insight into my work as a web developer.
 
 ## 🌐 Live Demo
 
